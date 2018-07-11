@@ -127,8 +127,8 @@ declare namespace IPFS {
         cat(hash: Multihash, callback: Callback<FileContent>): void;
         cat(hash: Multihash): Promise<FileContent>;
 
-        get(hash: Multihash, callback: Callback<IPFSFile>): void;
-        get(hash: Multihash): Promise<IPFSFile>;
+        get(hash: Multihash, callback: Callback<IPFSFile[]>): void;
+        get(hash: Multihash): Promise<IPFSFile[]>;
 
         getPull(hash: Multihash, callback: Callback<any>): void;
     }
