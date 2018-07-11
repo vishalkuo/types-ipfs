@@ -2,7 +2,7 @@
 
 To install, run:
 ```
-npm install https://github.com/survirtual/types-ipfs
+npm install https://github.com/vishalkuo/types-ipfs
 ```
 
 When importing IPFS:
